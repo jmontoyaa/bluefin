@@ -1,5 +1,60 @@
 # Changelog
 
+## [1.2.0](https://github.com/ublue-os/bluefin/compare/v1.1.0...v1.2.0) (2023-05-26)
+
+
+### Features
+
+* add `progress` tool ([#224](https://github.com/ublue-os/bluefin/issues/224)) ([3eac2c0](https://github.com/ublue-os/bluefin/commit/3eac2c03661f4ffbb9e49b7367ca8b25f7647b6d))
+* add a just shortcut for better OSK ([#192](https://github.com/ublue-os/bluefin/issues/192)) ([cee487c](https://github.com/ublue-os/bluefin/commit/cee487c5d43c61d07912357def3731484530920a))
+* add boot_menu.yml ([#202](https://github.com/ublue-os/bluefin/issues/202)) ([c3e4a81](https://github.com/ublue-os/bluefin/commit/c3e4a81a6f4d708b925a951c9c562342ebf07ffd))
+* add Containerfile.toolbox ([#197](https://github.com/ublue-os/bluefin/issues/197)) ([608bdbc](https://github.com/ublue-os/bluefin/commit/608bdbc54da3286d377d786902d52f1a782eb51f))
+* add just zsh shortcut ([#171](https://github.com/ublue-os/bluefin/issues/171)) ([962e988](https://github.com/ublue-os/bluefin/commit/962e9882f953e987d306f4be52ffa5e1b2744c37))
+* add tmux ([#203](https://github.com/ublue-os/bluefin/issues/203)) ([541defb](https://github.com/ublue-os/bluefin/commit/541defb39458342e7448e20c2aac019f24a9beda))
+* add toolbox-packages ([#198](https://github.com/ublue-os/bluefin/issues/198)) ([8ae4420](https://github.com/ublue-os/bluefin/commit/8ae4420675f637b1a6fd9241d7e65f866cf2a610))
+* added lines of code that makes a backup of nix before it is used so user can reset nix easily ([#152](https://github.com/ublue-os/bluefin/issues/152)) ([e50c660](https://github.com/ublue-os/bluefin/commit/e50c6601ce425da84940211c3bd68a6e7ff4e711))
+* document the bluefin-dx image ([#234](https://github.com/ublue-os/bluefin/issues/234)) ([348535c](https://github.com/ublue-os/bluefin/commit/348535ced1047dd09fb887fc4ce14a82c8f05a87))
+* **dx:** add intel mono font ([#240](https://github.com/ublue-os/bluefin/issues/240)) ([c0a6409](https://github.com/ublue-os/bluefin/commit/c0a6409cfdc8e3ec7e7fb9e00ce481c2e19fe01b))
+* **dx:** add nerd fonts, clean up repos ([#239](https://github.com/ublue-os/bluefin/issues/239)) ([c607903](https://github.com/ublue-os/bluefin/commit/c607903d61d39cfdb8578e4bb487dff447ddda04))
+* **dx:** add p7zip tools ([#241](https://github.com/ublue-os/bluefin/issues/241)) ([43f2a2b](https://github.com/ublue-os/bluefin/commit/43f2a2ba0eb8cadcc7e1f6675459f31480b66d9a))
+* enable -dx flavor of bluefin ([#233](https://github.com/ublue-os/bluefin/issues/233)) ([98a4d23](https://github.com/ublue-os/bluefin/commit/98a4d239ae02e3bf0c82d0fbce842b64daf11d31))
+* **just:** add bluefin ubuntu distrobox ([#210](https://github.com/ublue-os/bluefin/issues/210)) ([30a927c](https://github.com/ublue-os/bluefin/commit/30a927ca1a4069e6ff93dc1d2c3c399f573932f1))
+* **just:** add improved gestures extension ([#222](https://github.com/ublue-os/bluefin/issues/222)) ([8624171](https://github.com/ublue-os/bluefin/commit/8624171f729e38eb8db9f8defdcd240fe7a45b4e))
+* **just:** add includes for ublue justfiles ([#232](https://github.com/ublue-os/bluefin/issues/232)) ([ff3daa1](https://github.com/ublue-os/bluefin/commit/ff3daa1e697ee0c6ebdf39e9463ae1d77d4c60be))
+* **just:** add ms universal dev image ([#218](https://github.com/ublue-os/bluefin/issues/218)) ([1fe9407](https://github.com/ublue-os/bluefin/commit/1fe9407f266ccd6a2c34b28d385a36f0cc2120d5))
+* **just:** add shortcut to install distrobox from git ([#228](https://github.com/ublue-os/bluefin/issues/228)) ([54fc54b](https://github.com/ublue-os/bluefin/commit/54fc54b9afd8054d8bf28afca0eaf9215ee5262b))
+* **just:** add weather extension for the clock ([#229](https://github.com/ublue-os/bluefin/issues/229)) ([c008a57](https://github.com/ublue-os/bluefin/commit/c008a57da6c97929d0ee9fe912d9b83a02d1914e))
+* switch to our ubuntu-toolbox by default ([#219](https://github.com/ublue-os/bluefin/issues/219)) ([cb0681e](https://github.com/ublue-os/bluefin/commit/cb0681eab26141f10376001a1f2a0150b20a9ec1))
+* **toolbox:** add distrobox.ini for ubuntu image ([#227](https://github.com/ublue-os/bluefin/issues/227)) ([47e6d52](https://github.com/ublue-os/bluefin/commit/47e6d5248c3fedf79ae81b42d63755adc7573a9f))
+* **toolbox:** add packages for 3d support ([#226](https://github.com/ublue-os/bluefin/issues/226)) ([2435953](https://github.com/ublue-os/bluefin/commit/24359530330fc0753efc45727a7f89ab1861dddf))
+* update to the latest ubuntu font ([#186](https://github.com/ublue-os/bluefin/issues/186)) ([f7b11ed](https://github.com/ublue-os/bluefin/commit/f7b11eda0064f86aece6f3178567537894de9570))
+
+
+### Bug Fixes
+
+* add thirdparty disable ([#179](https://github.com/ublue-os/bluefin/issues/179)) ([acaa538](https://github.com/ublue-os/bluefin/commit/acaa538b8acfbd11e24ac32336e713378c0b0ffa))
+* Apply custom background to dark mode ([#163](https://github.com/ublue-os/bluefin/issues/163)) ([31c2c16](https://github.com/ublue-os/bluefin/commit/31c2c1630dd464d3995a18962a9b88d6f1eb5281))
+* Containerfile.toolbox ([#216](https://github.com/ublue-os/bluefin/issues/216)) ([6613907](https://github.com/ublue-os/bluefin/commit/66139070c0eab0612fe33c26dd5891fd1327bdfb))
+* copy toolbox-packages file during build ([#204](https://github.com/ublue-os/bluefin/issues/204)) ([35e335a](https://github.com/ublue-os/bluefin/commit/35e335af752792b1095e95db774601a4310c8035))
+* Create gnome settings background entry ([#165](https://github.com/ublue-os/bluefin/issues/165)) ([7d942a8](https://github.com/ublue-os/bluefin/commit/7d942a862e27120f9f7212d740d4fd1e9f86f256))
+* inconsistent dir naming in PR [#152](https://github.com/ublue-os/bluefin/issues/152) ([#167](https://github.com/ublue-os/bluefin/issues/167)) ([8ff4824](https://github.com/ublue-os/bluefin/commit/8ff482412bbeb5e3e181f4b6a717004324edcead))
+* remove extra repo files from final image ([#174](https://github.com/ublue-os/bluefin/issues/174)) ([c088d4e](https://github.com/ublue-os/bluefin/commit/c088d4e0589964fd9b60947e14e929d21fe9168c))
+* remove fixed fleek verion ([#190](https://github.com/ublue-os/bluefin/issues/190)) ([5825d19](https://github.com/ublue-os/bluefin/commit/5825d198b670c353c45fa4096fc71ed9fc978e80))
+* remove gnome-software settings ([#195](https://github.com/ublue-os/bluefin/issues/195)) ([f8f84de](https://github.com/ublue-os/bluefin/commit/f8f84def3066d1df4f02f87dad5cdf0977466c97))
+* remove podman-compose from image ([#200](https://github.com/ublue-os/bluefin/issues/200)) ([1ee2065](https://github.com/ublue-os/bluefin/commit/1ee2065da2b44c29c87d72b905100f8d0e371775))
+* remove podman-docker from F38 ([#181](https://github.com/ublue-os/bluefin/issues/181)) ([cd055c6](https://github.com/ublue-os/bluefin/commit/cd055c6c675bdfae157e9e6a211ebe88a8142b7e))
+* remove unneeded kickstart file ([#183](https://github.com/ublue-os/bluefin/issues/183)) ([5e1e887](https://github.com/ublue-os/bluefin/commit/5e1e8873582a57cc1774bba6fca84705c5c8d5e8))
+* remove unneeded kickstart files ([#182](https://github.com/ublue-os/bluefin/issues/182)) ([f2b766b](https://github.com/ublue-os/bluefin/commit/f2b766bbbbe3fcce52bd8ccba7807ee3c113bf09))
+* set first-run to false ([#177](https://github.com/ublue-os/bluefin/issues/177)) ([7b218b5](https://github.com/ublue-os/bluefin/commit/7b218b541be73e1227383db32fa759dfae23657c))
+* update Containerfile.toolbox ([#213](https://github.com/ublue-os/bluefin/issues/213)) ([bde663d](https://github.com/ublue-os/bluefin/commit/bde663d499e1b57cab7373e8d8b7c57d3b04490f))
+* update toolbox containerfile ([#209](https://github.com/ublue-os/bluefin/issues/209)) ([f74bd75](https://github.com/ublue-os/bluefin/commit/f74bd75e8e6cdce6f97fed7f787a9608702f11ad))
+* update toolbox-packages ([#205](https://github.com/ublue-os/bluefin/issues/205)) ([47a7750](https://github.com/ublue-os/bluefin/commit/47a77509b9469edcabc20a777271c1d10d3fc60a))
+
+
+### Reverts
+
+* "fix: remove extra repo files from final image" ([#176](https://github.com/ublue-os/bluefin/issues/176)) ([3b83c61](https://github.com/ublue-os/bluefin/commit/3b83c61df074c5b5c5950dfb7d0b2f93a4c6aebf))
+
 ## [1.1.0](https://github.com/ublue-os/bluefin/compare/v1.0.0...v1.1.0) (2023-04-09)
 
 
